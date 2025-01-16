@@ -6,6 +6,7 @@ import Home from "./home.js";
 import NoPage from "./noPage.js";
 import Eductaion from "./education.js";
 import CodingLanagaues from "./codingLanagues.js";
+import "./style.css"
 
 function App() {
     return (
