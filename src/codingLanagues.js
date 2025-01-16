@@ -33,6 +33,13 @@ export default function Home(){
                 <p>scala</p>
             </section>
         </main>
+        <article>
+            <h2>softare used</h2>
+            <p>Github</p>
+            <p>eclipse</p>
+            <p>visualStudio code</p>
+            <p>mySql work bench</p>
+        </article>
         </>
     )
 }

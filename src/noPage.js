@@ -1,5 +1,5 @@
 export default function NoPage(){
     return (
-        <p>no page found</p>
+        <h1>No page found</h1>
     )
 }
