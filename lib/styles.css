@@ -1,0 +1,26 @@
+
+.menuList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  opacity: 85%;
+   
+  
+}
+nav>p{
+text-align: end;
+}
+
+.show{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color:whitesmoke;
+}
+.show>a{
+height: 10vh;
+width: 100vw;
+font-size: 30px;
+text-align: center;
+}

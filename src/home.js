@@ -16,9 +16,9 @@ export default function Home(){
         communicate effectively. I am looking for an opportunity in software development, that will challenge my
         coding skills and allow me to be a part of an effective and friendly team.</p>
 
-        <P> the website is used to demonstairnght my coding ablity using javascript, webpack, babale, react and jsx. click one of the 
+        <p> the website is used to demonstairnght my coding ablity using javascript, webpack, babale, react and jsx. click one of the 
             links to see more info about me.
-        </P>
+        </p>
         </section>
         </main>
 
