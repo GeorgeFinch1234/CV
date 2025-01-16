@@ -26,6 +26,7 @@ export default function Home(){
                 <p>HTML</p>
                 <p>css</p>
                 <p>mySql</p>
+                <p>Git</p>
                 <h3>very little expriences</h3>
                 <p>C#</p>
                 <p>kotlin</p>
