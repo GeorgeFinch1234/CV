@@ -5,7 +5,7 @@ import Navigation from "./navigation.js";
 import Home from "./home.js";
 import NoPage from "./noPage.js";
 import Eductaion from "./education.js";
-import CodingLanagaues from "./codingLanagues.js";
+import Skills from "./Skills.js";
 import "./style.css"
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
                 <Route path="/" element={<Navigation />}>
                     <Route path="lib/index.html" element={<Home />} />
                     <Route path="lib/eductaion" element={<Eductaion />} />
-                    <Route path="lib/codingLanagaues" element={<CodingLanagaues />} />
+                    <Route path="lib/Skills" element={<Skills />} />
                     <Route path="*" element={<NoPage />} />
                 </Route>
                 

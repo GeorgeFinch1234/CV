@@ -16,7 +16,7 @@ export default function NavBar() {
                 <div className="menuList">
                     <Link onClick={menu} to="/lib/index.html" className="link">Home</Link>
                     <Link onClick={menu} to="/lib/eductaion" className="link">eductaion</Link>
-                    <Link onClick={menu} to="/lib/codingLanagaues" className="link">codingLanagaues</Link>
+                    <Link onClick={menu} to="/lib/Skills" className="link">Skills</Link>
                 </div>
             </nav>
             <Outlet></Outlet>
