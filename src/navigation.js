@@ -14,9 +14,9 @@ export default function NavBar() {
             <nav>
                 <p id='menuIcon' onClick={menu}>{'\u2630'}</p>
                 <div className="menuList">
-                    <Link to="/lib/index.html" className="link">Home</Link>
-                    <Link to="/lib/eductaion" className="link">eductaion</Link>
-                    <Link to="/lib/codingLanagaues" className="link">codingLanagaues</Link>
+                    <Link onClick={menu} to="/lib/index.html" className="link">Home</Link>
+                    <Link onClick={menu} to="/lib/eductaion" className="link">eductaion</Link>
+                    <Link onClick={menu} to="/lib/codingLanagaues" className="link">codingLanagaues</Link>
                 </div>
             </nav>
             <Outlet></Outlet>
