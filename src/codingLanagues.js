@@ -1,8 +1,8 @@
 export default function Home() {
     return (
         <>
-            <h1> Coding Languages</h1>
-            <main>
+            <h1 id="h1CodingPage"> Coding Languages</h1>
+            <main id = "codingPageMain">
                 <section>
                     <h2>Java</h2>
                     <h3>Java ecosystem</h3>
