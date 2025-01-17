@@ -105,4 +105,36 @@ padding: 10px;
     margin: 0;
     padding: 2px;
 }
+#educationTitle *{
+    margin: 0;
+}
+#educationMain article *{
+margin: 0;
+padding: 5px;
+text-align: center;
+}
+#educationMain article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#educationTitle{
+    padding: 10px;
+}
+/*
+carousel inspried from the w3schools tuotiral
+*/
+#carousel .fade{
+    display: none;
+}
 
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
