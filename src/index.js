@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route,HashRouter } from "react-router-dom";
 import Navigation from "./navigation.js";
 import Home from "./home.js";
 import NoPage from "./noPage.js";
@@ -11,7 +11,7 @@ import "./style.css"
 function App() {
     return (
 
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Navigation />}>
                     <Route path="lib/index.html" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
                 </Route>
                 <Route path="*" element={<NoPage />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 

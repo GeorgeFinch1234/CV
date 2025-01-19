@@ -2,29 +2,49 @@ import { useState, useEffect } from "react"
 
 export default function Home() {
     const [currentSlide, setSlide] = useState(0);
+    const [isAutoChange, setIsAutoChange] = useState(1);
     
-    
-    
-    useEffect(() => { setTimeout(()=>{
-
-        //gets all the sldies
-        let slides = document.querySelectorAll("#carousel div")
+    function changeSlide(forward, manual ){
+         //gets all the sldies
+         let slides = document.querySelectorAll("#carousel div")
      
-       
-
-        
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-           
-
-            
-
-            const nextSlide = (currentSlide + 1) % slides.length;
+         for (let i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";
+         }
+         let nextSlide
+        if(forward){
+         nextSlide = (currentSlide + 1) % slides.length;
+         slides[nextSlide].style.display = "block";
+         setSlide(nextSlide);
+        }else if (currentSlide == 0){
+             nextSlide = slides.length - 1;
             slides[nextSlide].style.display = "block";
             setSlide(nextSlide);
-       //seven second timer
-     },7000) }, [currentSlide])
+        }else{
+             nextSlide = (currentSlide - 1) 
+            slides[nextSlide].style.display = "block";
+            setSlide(nextSlide);
+        }
+
+if(!manual){
+    //just doing %3 simply so number never get to max int
+    let change = (isAutoChange +1) % 3
+    setIsAutoChange(change)
+}
+    }
+
+
+useEffect(()=>{
+    setTimeout(()=>{
+
+    changeSlide(true, false)
+
+}, 7000)
+
+
+},[isAutoChange])
+
+    
     return (
         <>
             <div id="educationTitle">
@@ -70,6 +90,8 @@ export default function Home() {
                                 functional paradigm in the IntelliJ IDE, as I was taught how to manipulate matrix’s from
                                 one state to another.</p>
                         </div>
+                        <p onClick={()=>{changeSlide(false,true)}}>{'\u2190'}</p>
+                        <p onClick={()=>{changeSlide(true,true)}}>{'\u2192'}</p>
                     </div>
                 </article>
                 <article>
