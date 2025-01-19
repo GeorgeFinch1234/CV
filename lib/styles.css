@@ -284,15 +284,15 @@ carousel inspried from the w3schools tuotiral
 
 
 #skillsPage h1{
-font-size: 50px;
+font-size: 40px;
 padding-bottom: 5px;
 }
 
 #skillsPage p{
-    font-size: 25px;
+    font-size: 20px;
     }
     #skillsPage h2{
-        font-size: 30px;
+        font-size: 25px;
         padding-bottom: 10px;
         }
 }
@@ -314,6 +314,18 @@ padding-bottom: 5px;
         font-size: 30px;
 
     }
-
+    #skillsPage h1{
+        font-size: 50px;
+        padding-bottom: 5px;
+        }
+        
+        #skillsPage p{
+            font-size: 25px;
+            }
+            #skillsPage h2{
+                font-size: 30px;
+                padding-bottom: 10px;
+                }
+        }
 
 }
