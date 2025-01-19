@@ -1,14 +1,12 @@
 export default function Home(){
     return (
         <main id="homeMain">
-            <div>
+            
             <div id="HomeTitle">
             <h1>George Finch</h1>
             <p>Software engineer</p>
             </div>
-            <img id="laptopImg" className="homeImg" alt="a laptop on a bench next to a coffe"src="https://picsum.photos/id/2/300/400"></img>
-           </div>
-           <div>
+           
            <img id ="gradImg" className="homeImg"src ="./../lib/images/graduation.jpg" alt="an image of george at graduation"></img>
            
            <section id="aboutGeorge">
@@ -20,7 +18,7 @@ export default function Home(){
         communicate effectively. I am looking for an opportunity in software development, that will challenge my
         coding skills and allow me to be a part of an effective and friendly team</p>
         </section>
-        </div>
+        
         </main>
 
     )
