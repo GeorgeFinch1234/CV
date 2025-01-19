@@ -41,7 +41,7 @@ useEffect(()=>{
 
 }, 7000)
 
-
+// use[] so it only re-run on every render.
 },[isAutoChange])
 
     

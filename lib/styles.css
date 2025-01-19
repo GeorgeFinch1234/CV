@@ -19,6 +19,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s ease-in;
 }
 nav {
     position: relative;
@@ -277,6 +278,23 @@ carousel inspried from the w3schools tuotiral
         width: 150px;
     }
    
+/*
+*skill
+*/
+
+
+#skillsPage h1{
+font-size: 50px;
+padding-bottom: 5px;
+}
+
+#skillsPage p{
+    font-size: 25px;
+    }
+    #skillsPage h2{
+        font-size: 30px;
+        padding-bottom: 10px;
+        }
 }
 
 @media screen and (min-width: 1000px) {
