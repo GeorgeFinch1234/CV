@@ -70,8 +70,6 @@ export default function Home() {
                                 functional paradigm in the IntelliJ IDE, as I was taught how to manipulate matrix’s from
                                 one state to another.</p>
                         </div>
-                        <p id="leftArrow" >{"\u2190"}</p>
-                        <p id="rightArrow" >{"\u2192"}</p>
                     </div>
                 </article>
                 <article>

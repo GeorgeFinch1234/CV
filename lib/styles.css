@@ -56,6 +56,7 @@ h1{
 }
 h2{
     font-size: 30px;
+    text-align: center;
 }
 h3{
     font-size: 25px;
@@ -138,3 +139,22 @@ carousel inspried from the w3schools tuotiral
     from {opacity: .4}
     to {opacity: 1}
   }
+
+
+  @media screen and (min-width: 600px){
+  #skillsPage{
+    display: grid;
+    grid-template-columns: 25vw auto;
+    grid-auto-rows: minmax(auto, 33vh);
+    padding: 20px;
+  }
+  #SkillPageMain{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+    #SkillPageMain{
+        grid-template-columns: auto auto auto;
+      }
+}

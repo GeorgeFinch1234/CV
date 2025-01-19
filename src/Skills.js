@@ -1,6 +1,7 @@
 export default function Home() {
     return (
         <>
+        <div id="skillsPage">
         <section id="SkillsTitleSecion">
             <h1 id="h1CodingPage">Skills</h1>
             <p>George bring multiple differnet skills not only form eductaion, and work expirence but also personal projects. </p>
@@ -24,7 +25,7 @@ export default function Home() {
                 </section>
 
                 <section>
-                    <h2>JavaScript ecosystem</h2>
+                    <h2>JS ecosystem</h2>
                     <p>node</p>
                     <p>React</p>
                     <p>JSX</p>
@@ -33,6 +34,7 @@ export default function Home() {
                     <p>npx</p>
                     <p>react router</p>
                 </section>
+
                 <section>
                     <h2>hard Skills</h2>
                     <p>Driving lince.</p>
@@ -46,12 +48,22 @@ export default function Home() {
                     <p>kotlin</p>
                     <p>scala</p>
                 </section>
+
                 <section>
                     <h2>softare</h2>
                     <p>Github</p>
                     <p>eclipse</p>
                     <p>visualStudio code</p>
                     <p>mySql work bench</p>
+                   
+                </section>
+                <section>
+                    <h2>soft Skills</h2>
+                    <p>researh</p>
+                    <p>self motivation</p>
+                </section>
+                <section>
+                    <h2>Essential</h2>
                     <p>microsoft word</p>
                     <p>microsoft excel</p>
                     <p>microsoft powerpoint</p>
@@ -60,6 +72,7 @@ export default function Home() {
                 </section>
 
             </main>
+            </div>
         </>
     )
 }
