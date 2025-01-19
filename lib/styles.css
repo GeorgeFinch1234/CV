@@ -1,225 +1,301 @@
-
-.menuList{
+.menuList {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-  opacity: 90%;
-   
-  
-}
-
-nav{
-    position: fixed;
-    width: 100vw;
-    z-index: 10;
-}
-
-nav p{
-
-text-align: end;
-top:0;
-z-index: 10;
-position: relative;
-font-size: 30px;
-margin: 0px;
-top:10px;
-right: 10px;
-}
-body{
-    margin: 0;
-    
-}
-.show{
-   transform: translateX(0);
-}
-nav div{
+    opacity: 90%;
     transition: margin-right 4s;
     position: fixed;
     transform: translateX(100vw);
     transition: 0.5s;
     height: 100vh;
     width: 100vw;
-    background-color:#5e8d83;
+    background-color: #5e8d83;
     top: 0;
     z-index: 5;
+
 }
-nav div a{
-height: 10vh;
-width: 100vw;
-font-size: 30px;
-text-align: center;
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    position: relative;
+
+}
+
+nav p {
+
+    text-align: end;
+    top: 0;
+    z-index: 10;
+    position: relative;
+    font-size: 30px;
+    margin: 0px;
+    top: 10px;
+    right: 10px;
+}
+
+body {
+    margin: 0;
+
+}
+.show {
+    transform: translateX(0);
+}
+
+nav div a {
+    height: 30vh;
+    width: 100vw;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+   
+    
+}
+
+.link:hover{
+background-color: #45746a;;
 }
 
 
 
-
-
-
-h1{
+h1 {
     font-size: 35px;
 }
-h2{
+
+h2 {
     font-size: 30px;
     text-align: center;
 }
-h3{
+
+h3 {
     font-size: 25px;
 }
-p{
+
+p {
     font-size: 20px;
 }
-#HomeTitle *, #SkillsTitleSecion *{
 
-margin: 0;
+#HomeTitle *,
+#SkillsTitleSecion * {
+
+    margin: 0;
 
 
 }
-#HomeTitle{
+
+#HomeTitle {
     padding: 10px;
-  
+
 }
-body{
+
+body {
     background-color: #d2e1cc;
 }
-.homeImg{
-  width:70vw ;
-  height: auto;
-   border-radius: 10px;
-   position: relative;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   
-   
+
+.homeImg {
+    width: 70vw;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
-#aboutGeorge *{
+
+#aboutGeorge * {
     margin: 0;
 }
-#aboutGeorge{
+
+#aboutGeorge {
     margin: 10px;
     text-align: center;
 }
 
-#SkillsTitleSecion,#SkillPageMain{
+#SkillsTitleSecion,
+#SkillPageMain {
     padding: 10px;
 }
-#SkillPageMain section{
+
+#SkillPageMain section {
     display: flex;
     flex-direction: column;
     align-items: center;
-padding: 10px;
+    padding: 10px;
 }
-#SkillPageMain section *{
+
+#SkillPageMain section * {
     margin: 0;
     padding: 2px;
 }
-#educationTitle *{
+
+#educationTitle * {
     margin: 0;
 }
-#educationMain article *{
-margin: 0;
-padding: 5px;
-text-align: center;
+
+#educationMain article * {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
 }
+
 #educationMain article {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
-#educationTitle{
+
+#educationTitle {
     padding: 10px;
 }
+
 /*
 carousel inspried from the w3schools tuotiral
 */
-#carousel .fade{
+#carousel .fade {
     display: none;
 }
-#laptopImg{
+
+#laptopImg {
     display: none;
 }
+
 .fade {
     animation-name: fade;
     animation-duration: 4s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
 
 
-  @media screen and (min-width: 600px){
-  #skillsPage{
-    display: grid;
-    grid-template-columns: 25vw auto;
-    grid-auto-rows: minmax(auto, 33vh);
-    padding: 20px;
-  }
-  #SkillPageMain{
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  
-/*
+@media screen and (min-width: 600px) {
+    #skillsPage {
+        display: grid;
+        grid-template-columns: 25vw auto;
+        grid-auto-rows: minmax(auto, 33vh);
+        padding: 20px;
+    }
+
+    #SkillPageMain {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*
 *Home
 */
 
 
-#homeMain{
-display: grid;
-grid-template-columns: 50vw 50vw;
-}
-#HomeTitle{
-    grid-column: span 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    background-color: #6ba196;
-    
-}
-#HomeTitle h1{
-    font-size: 60px;
-}
-#HomeTitle p{
-    font-size: 40px;
-}
-.homeImg{
-    width: auto;
-    margin: auto;  
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    #homeMain {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+    }
+
+    #HomeTitle {
+        grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 20vh;
+        background-color: #6ba196;
 
 
-#aboutGeorge{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20PX;
-    margin: 0;
-    max-width: 700px;
-}
+    }
 
-}
-@media screen and (min-width: 1000px) {
-    #SkillPageMain{
-        grid-template-columns: auto auto auto;
-      }
-      #homeMain h1{
-        font-size: 70px;
-        }
-        #homeMain h2{
-            font-size: 50px;
-        }
-        #homeMain p{
-            font-size: 30px;
-           
-        }
+    #HomeTitle h1 {
+        font-size: 60px;
+    }
+
+    #HomeTitle p {
+        font-size: 40px;
+    }
+
+    .homeImg {
+        width: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    #aboutGeorge {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20PX;
+        margin: 0;
+        max-width: 700px;
+    }
+
+
+    .menuList {
+        padding: 15px;
+        flex-direction: row;
+        align-items: start;
+        justify-content: end;
+        opacity: 100%;
+        position: static;
+        height: 8vh;
+        background-color:inherit;
+        transform:translatex(0);
+        background-color:  #6ba196;
         
+
+    }
+
+    #menuIcon {
+        display: none;
+    }
+
+    nav {
+        background-color: inherit;
+        width: 100vw;
+        display: flex;
+        justify-content: end;
+       
+    }
+    .menuList a{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        height: 35px;
+        margin: 5px;
+        width: 150px;
+    }
+   
+}
+
+@media screen and (min-width: 1000px) {
+    #SkillPageMain {
+        grid-template-columns: auto auto auto;
+    }
+
+    #homeMain h1 {
+        font-size: 70px;
+    }
+
+    #homeMain h2 {
+        font-size: 50px;
+    }
+
+    #homeMain p {
+        font-size: 30px;
+
+    }
+
 
 }
