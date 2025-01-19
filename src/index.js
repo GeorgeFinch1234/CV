@@ -17,9 +17,9 @@ function App() {
                     <Route path="lib/index.html" element={<Home />} />
                     <Route path="lib/eductaion" element={<Eductaion />} />
                     <Route path="lib/Skills" element={<Skills />} />
-                    <Route path="*" element={<NoPage />} />
+                    
                 </Route>
-                
+                <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>
     )
