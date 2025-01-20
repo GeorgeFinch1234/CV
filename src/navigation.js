@@ -1,13 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
 
 export default function NavBar() {
-     function menu() {
+    function menu() {
         // toggles all the menus for me.
-       
-    
-            document.querySelector(`nav div`).classList.toggle(`show`);
-    
-        
+
+
+        document.querySelector(`nav div`).classList.toggle(`show`);
+
+
     }
     return (
         <>
@@ -15,12 +15,12 @@ export default function NavBar() {
                 <p id='menuIcon' onClick={menu}>{'\u2630'}</p>
                 <div className="menuList">
                     <Link onClick={menu} to="/lib/index.html" className="link">Home</Link>
-                    <Link onClick={menu} to="/lib/eductaion" className="link">eductaion</Link>
+                    <Link onClick={menu} to="/lib/eductaion" className="link">Eductaion</Link>
                     <Link onClick={menu} to="/lib/Skills" className="link">Skills</Link>
                 </div>
             </nav>
             <Outlet></Outlet>
-            
+
         </>
     )
 }

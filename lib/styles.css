@@ -159,63 +159,72 @@ body {
 #educationTitle {
     padding: 10px;
 }
- 
-#educationTitle{
+
+#educationTitle {
     border: 0px;
     border-bottom: 5px;
-border-color:#c2cdbd ;
+    border-color: #c2cdbd;
     border-style: solid;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
-    
-    
+
+
 }
-#educationMain article{
+
+#educationMain article {
 
     border: 0px;
     border-bottom: 5px;
-border-color:#c2cdbd ;
+    border-color: #c2cdbd;
     border-style: solid;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
 }
+
 /*
 carousel inspried from the w3schools tuotiral
 */
 #carousel .fade {
     display: none;
 }
-#carousel{
+
+#carousel {
     position: relative;
 }
-#carousel div{
-max-width: 1000px;
+
+#carousel div {
+    max-width: 1000px;
 
 
 }
 
 
-#educationTitle{
+#educationTitle {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} 
-#educationTitle h1{
-font-size: 40px;
 }
-#educationMain h2{
+
+#educationTitle h1 {
+    font-size: 40px;
+}
+
+#educationMain h2 {
     font-size: 30px;
 }
-#educationMain h3{
+
+#educationMain h3 {
     font-size: 35px;
 }
-#educationMain h4{
+
+#educationMain h4 {
     font-size: 25px;
 }
-#educationMain p{
+
+#educationMain p {
     font-size: 25px;
 }
 
@@ -240,11 +249,12 @@ font-size: 40px;
 }
 
 
-#educationMain #leftArrow, #educationMain #rightArrow{
+#educationMain #leftArrow,
+#educationMain #rightArrow {
     display: inline;
     padding-inline: 10px;
     font-size: 40px;
-    
+
 }
 
 @media screen and (min-width: 600px) {
@@ -367,16 +377,17 @@ font-size: 40px;
     /*
     *education
     */
-   .grade{
-    display: flex;
-    
-   }
-   #educationTitle{
-    background-color: #6ba196;
-    border: 0px;
-    width: inherit;
-    border-style: hidden;
-   }
+    .grade {
+        display: flex;
+
+    }
+
+    #educationTitle {
+        background-color: #6ba196;
+        border: 0px;
+        width: inherit;
+        border-style: hidden;
+    }
 
 }
 
@@ -412,19 +423,23 @@ font-size: 40px;
         padding-bottom: 10px;
     }
 
-    #educationTitle h1{
+    #educationTitle h1 {
         font-size: 50px;
-            }
-            #educationMain h2{
-                font-size: 40px;
-            }
-            #educationMain h3{
-                font-size: 45px;
-            }
-            #educationMain h4{
-                font-size: 40px;
-            }
-            #educationMain p{
-                font-size: 35px;
-            }
+    }
+
+    #educationMain h2 {
+        font-size: 40px;
+    }
+
+    #educationMain h3 {
+        font-size: 45px;
+    }
+
+    #educationMain h4 {
+        font-size: 40px;
+    }
+
+    #educationMain p {
+        font-size: 35px;
+    }
 }

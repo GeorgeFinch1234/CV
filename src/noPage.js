@@ -1,8 +1,10 @@
 import Nav from "./navigation"
-export default function NoPage(){
+export default function NoPage() {
     return (
         <>
-        <h1>No page found</h1>
+        //need as called outside of the route which has the nav
+        <Nav></Nav>
+            <h1>No page found</h1>
         </>
     )
 }
