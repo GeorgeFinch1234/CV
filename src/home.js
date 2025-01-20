@@ -3,10 +3,10 @@ export default function Home() {
     return (
         <main id="homeMain">
 
-            <div id="HomeTitle">
+            <section id="HomeTitle">
                 <h1>George Finch</h1>
                 <p>Software engineer</p>
-            </div>
+            </section>
 
             <img id="gradImg" className="homeImg" src="./../lib/images/graduation.jpg" alt="an image of george at graduation"></img>
 

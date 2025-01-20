@@ -36,37 +36,45 @@ export default function Home() {
                     </section>
 
                     <section>
-                        <h2>hard Skills</h2>
-                        <p>Driving lince.</p>
-                        <p>Desigin</p>
-                        <p>testing</p>
-                    </section>
-
-                    <section>
                         <h2>little expriences</h2>
                         <p>C#</p>
                         <p>kotlin</p>
                         <p>scala</p>
+                        <p>python</p>
                     </section>
 
                     <section>
-                        <h2>software</h2>
+                        <h2>coding software</h2>
                         <p>Github</p>
                         <p>eclipse</p>
                         <p>visualStudio code</p>
                         <p>mySql work bench</p>
 
                     </section>
+                   
+                    <section>
+                        <h2>hard Skills</h2>
+                        <p>Driving linces</p>
+                        <p>Porgamming design</p>
+                        <p>program testing</p>
+                        <p>research</p>
+                    </section>
+
+                    
+
+                   
                     <section>
                         <h2>soft Skills</h2>
-                        <p>researh</p>
+                        <p>Documenation</p>
                         <p>self motivation</p>
+                        <p>collberative</p>
+                        <p>independent</p>
                     </section>
                     <section>
                         <h2>Essential</h2>
-                        <p>microsoft word</p>
-                        <p>microsoft excel</p>
-                        <p>microsoft powerpoint</p>
+                        <p>Microsoft Office Suite</p>
+                        <p>outlook</p>
+                        <p>gmail</p>
                         <p>google drive</p>
                         <p>one drive</p>
                     </section>
