@@ -49,7 +49,7 @@ useEffect(()=>{
         <>
             <div id="educationTitle">
                 <h1 >Eductaion</h1>
-                <p>This pages shows a list of my past education</p>
+                
             </div>
             <main id="educationMain">
                 <article>
@@ -59,6 +59,9 @@ useEffect(()=>{
 
                     <h3>Modules</h3>
                     <div id="carousel">
+                    <p id ="leftArrow" onClick={()=>{changeSlide(false,true)}}>{'\u2190'}</p>
+                        <p id ="rightArrow" onClick={()=>{changeSlide(true,true)}}>{'\u2192'}</p>
+                   
                         <div >
                             <h4>Mobile application development</h4>
                             <p> grade 86%</p>
@@ -70,7 +73,7 @@ useEffect(()=>{
                         <div className="fade">
                             <h4>Development project</h4>
                             <p> grade 90%</p>
-                            <p>90%. I independently developed a stock management
+                            <p>I independently developed a stock management
                                 system using eclipse, java, JavaFX and MySQL. The application had dynamic menus,
                                 CRUD functionality, hashed passwords, it could take info from files and output info to
                                 other files, validation and verification.</p>
@@ -90,9 +93,7 @@ useEffect(()=>{
                                 functional paradigm in the IntelliJ IDE, as I was taught how to manipulate matrix’s from
                                 one state to another.</p>
                         </div>
-                        <p onClick={()=>{changeSlide(false,true)}}>{'\u2190'}</p>
-                        <p onClick={()=>{changeSlide(true,true)}}>{'\u2192'}</p>
-                    </div>
+                        </div>
                 </article>
                 <article>
                     <h2>OCR LEVEL 3 CAMBRIDGE TECHNICAL EXTENDED DIPLOMA IN IT,</h2>
@@ -104,14 +105,19 @@ useEffect(()=>{
                     <h2>ALEVELS,,</h2>
                     <p>NORTHAMPTON COLLEGE</p>
                     <p>grade</p>
-                    <p>Sociology – C
-                        Geography – D </p>
-                </article>
+                    <div className="grade">
+                    <p>Sociology – C</p>
+                        <p>Geography – D </p>
+                        </div>
+                        </article>
+                
                 <article>
                     <h2>GCSE</h2>
                     <p>Quinton House</p>
                     <p>grade</p>
-                    <p>7 GCSE – ranging from D – B </p>
+                    <div className="grade">
+                    <p>7 GCSE </p> <p>ranging from</p><p> D – B </p>
+                    </div>
                 </article>
 
             </main>

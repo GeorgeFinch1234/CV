@@ -15,12 +15,14 @@
     z-index: 5;
 
 }
-a{
+
+a {
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.5s ease-in;
 }
+
 nav {
     position: relative;
 
@@ -42,6 +44,7 @@ body {
     margin: 0;
 
 }
+
 .show {
     transform: translateX(0);
 }
@@ -53,12 +56,13 @@ nav div a {
     text-align: center;
     text-decoration: none;
     color: black;
-   
-    
+
+
 }
 
-.link:hover{
-background-color: #45746a;;
+.link:hover {
+    background-color: #45746a;
+    ;
 }
 
 
@@ -155,12 +159,64 @@ body {
 #educationTitle {
     padding: 10px;
 }
+ 
+#educationTitle{
+    border: 0px;
+    border-bottom: 5px;
+border-color:#c2cdbd ;
+    border-style: solid;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#educationMain article{
 
+    border: 0px;
+    border-bottom: 5px;
+border-color:#c2cdbd ;
+    border-style: solid;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*
 carousel inspried from the w3schools tuotiral
 */
 #carousel .fade {
     display: none;
+}
+#carousel{
+    position: relative;
+}
+#carousel div{
+max-width: 1000px;
+
+
+}
+
+
+#educationTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+#educationTitle h1{
+font-size: 40px;
+}
+#educationMain h2{
+    font-size: 30px;
+}
+#educationMain h3{
+    font-size: 35px;
+}
+#educationMain h4{
+    font-size: 25px;
+}
+#educationMain p{
+    font-size: 25px;
 }
 
 #laptopImg {
@@ -171,6 +227,7 @@ carousel inspried from the w3schools tuotiral
     animation-name: fade;
     animation-duration: 4s;
 }
+
 
 @keyframes fade {
     from {
@@ -183,6 +240,12 @@ carousel inspried from the w3schools tuotiral
 }
 
 
+#educationMain #leftArrow, #educationMain #rightArrow{
+    display: inline;
+    padding-inline: 10px;
+    font-size: 40px;
+    
+}
 @media screen and (min-width: 600px) {
     #skillsPage {
         display: grid;
@@ -252,10 +315,10 @@ carousel inspried from the w3schools tuotiral
         opacity: 100%;
         position: static;
         height: 8vh;
-        background-color:inherit;
-        transform:translatex(0);
-        background-color:  #6ba196;
-        
+        background-color: inherit;
+        transform: translatex(0);
+        background-color: #6ba196;
+
 
     }
 
@@ -268,33 +331,60 @@ carousel inspried from the w3schools tuotiral
         width: 100vw;
         display: flex;
         justify-content: end;
-       
+
     }
-    .menuList a{
+
+    .menuList a {
         background-color: whitesmoke;
         border-radius: 20px;
         height: 35px;
         margin: 5px;
         width: 150px;
     }
-   
-/*
+
+    /*
 *skill
 */
 
 
-#skillsPage h1{
-font-size: 40px;
-padding-bottom: 5px;
-}
-
-#skillsPage p{
-    font-size: 20px;
+    #skillsPage h1 {
+        font-size: 40px;
+        padding-bottom: 5px;
     }
-    #skillsPage h2{
+
+    #skillsPage p {
+        font-size: 20px;
+    }
+
+    #skillsPage h2 {
         font-size: 25px;
         padding-bottom: 10px;
-        }
+    }
+
+
+
+    /*
+    *education
+    */
+   .grade{
+    display: flex;
+    
+   }
+   #educationTitle{
+    background-color: #6ba196;
+    border: 0px;
+    width: inherit;
+    border-style: hidden;
+   }
+
+
+
+
+
+
+
+
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -314,18 +404,34 @@ padding-bottom: 5px;
         font-size: 30px;
 
     }
-    #skillsPage h1{
+
+    #skillsPage h1 {
         font-size: 50px;
         padding-bottom: 5px;
-        }
-        
-        #skillsPage p{
-            font-size: 25px;
-            }
-            #skillsPage h2{
-                font-size: 30px;
-                padding-bottom: 10px;
-                }
-        }
+    }
 
+    #skillsPage p {
+        font-size: 25px;
+    }
+
+    #skillsPage h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    #educationTitle h1{
+        font-size: 50px;
+            }
+            #educationMain h2{
+                font-size: 40px;
+            }
+            #educationMain h3{
+                font-size: 45px;
+            }
+            #educationMain h4{
+                font-size: 40px;
+            }
+            #educationMain p{
+                font-size: 35px;
+            }
 }
