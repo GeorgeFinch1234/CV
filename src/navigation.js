@@ -20,6 +20,7 @@ export default function NavBar() {
                 </div>
             </nav>
             <Outlet></Outlet>
+            
         </>
     )
 }

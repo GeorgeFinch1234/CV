@@ -246,6 +246,7 @@ font-size: 40px;
     font-size: 40px;
     
 }
+
 @media screen and (min-width: 600px) {
     #skillsPage {
         display: grid;
@@ -376,14 +377,6 @@ font-size: 40px;
     width: inherit;
     border-style: hidden;
    }
-
-
-
-
-
-
-
-
 
 }
 
