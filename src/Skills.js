@@ -4,7 +4,7 @@ export default function Home() {
             <div id="skillsPage">
                 <section id="SkillsTitleSecion">
                     <h1 id="h1CodingPage">Skills</h1>
-                    <p>George bring multiple differnet skills not only form eductaion, and work expirence but also personal projects. </p>
+                    <p>George bring multiple different skills not only from eductaion, and work expirence but also personal projects. </p>
                 </section>
                 <main id="SkillPageMain">
 
@@ -14,7 +14,7 @@ export default function Home() {
                         <p>javaScript</p>
                         <p>HTML</p>
                         <p>css</p>
-                        <p>mySql</p>
+                        <p>MySQL</p>
                     </section>
 
                     <section>
@@ -50,7 +50,7 @@ export default function Home() {
                     </section>
 
                     <section>
-                        <h2>softare</h2>
+                        <h2>software</h2>
                         <p>Github</p>
                         <p>eclipse</p>
                         <p>visualStudio code</p>

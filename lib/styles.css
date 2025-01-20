@@ -220,17 +220,11 @@ carousel inspried from the w3schools tuotiral
     font-size: 35px;
 }
 
-#educationMain h4 {
+#educationMain h4, #educationMain p {
     font-size: 25px;
 }
 
-#educationMain p {
-    font-size: 25px;
-}
 
-#laptopImg {
-    display: none;
-}
 
 .fade {
     animation-name: fade;
