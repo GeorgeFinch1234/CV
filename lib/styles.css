@@ -169,7 +169,7 @@ body {
 /*
 carousel inspried from the w3schools tuotiral
 */
-#carousel .fade {
+#carousel .notShownAtstart {
     display: none;
 }
 

@@ -66,7 +66,7 @@ export default function Home() {
                         <p id="leftArrow" onClick={() => { changeSlide(false, true) }}>{'\u2190'}</p>
                         <p id="rightArrow" onClick={() => { changeSlide(true, true) }}>{'\u2192'}</p>
 
-                        <semantic >
+                        <semantic className="fade">
                             <h4>Mobile application development</h4>
                             <p>Grade 86%</p>
                             <p>I worked as part of a team using android
@@ -74,7 +74,7 @@ export default function Home() {
                                 orders, edit menu items and allow people to purchase items.</p>
 
                         </semantic>
-                        <semantic className="fade">
+                        <semantic className="fade notShownAtstart">
                             <h4>Development project</h4>
                             <p>Grade 90%</p>
                             <p>I independently developed a stock management
@@ -83,21 +83,21 @@ export default function Home() {
                                 other files, validation and verification.</p>
 
                         </semantic>
-                        <semantic className="fade">
+                        <semantic className="fade notShownAtstart">
                             <h4>Front end web development</h4>
                             <p>Grade 88%</p>
                             <p>I developed a rock-climbing website that was
                                 made using HTML, CSS and JavaScript along with coding techniques such as
                                 keyframes, RESTful Apis, JSON and cookies.</p>
                         </semantic>
-                        <semantic className="fade">
+                        <semantic className="fade notShownAtstart">
                             <h4>Functional software development</h4>
                             <p>Grade 92%</p>
                             <p>In this module we used scala following the
                                 functional paradigm in the IntelliJ IDE, as I was taught how to manipulate matrix’s from
                                 one state to another.</p>
                         </semantic>
-                        <semantic className="fade">
+                        <semantic className="fade notShownAtstart">
                             <h4>Agile team development</h4>
                             <p>Grade 97%</p>
                             <p>worked as part of team following the srum methodology , where we developed a websits using c# and asp.net. and
