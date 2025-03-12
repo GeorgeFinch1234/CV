@@ -264,8 +264,9 @@ carousel inspried from the w3schools tuotiral
         height: 20vh;
         background-color: #6ba196;
 
-
     }
+body{
+overflow-x: hidden;
 
     #HomeTitle h1 {
         font-size: 60px;
@@ -299,12 +300,12 @@ carousel inspried from the w3schools tuotiral
         align-items: start;
         justify-content: end;
         opacity: 100%;
-        position: static;
+        position: relative;
         height: 8vh;
         background-color: inherit;
         transform: translatex(0);
         background-color: #6ba196;
-
+      
 
     }
 
@@ -314,7 +315,7 @@ carousel inspried from the w3schools tuotiral
 
     nav {
         background-color: inherit;
-        width: 100vw;
+        width: 100%;
         display: flex;
         justify-content: end;
 
