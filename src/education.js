@@ -49,6 +49,24 @@ export default function Home() {
     }, [isAutoChange])
 
 
+//for scrolling animation
+useEffect(() =>{
+    const options ={
+        threshold : 0.30
+    }
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("scrollShow")
+        } else{
+            entry.target.classList.remove("scrollShow")
+        }
+    })
+},options)
+const hiddenelemts = document.querySelectorAll(".Scroll") 
+hiddenelemts.forEach((el)=> observer.observe(el))
+
+}, [])
     return (
         <>
             <semantic id="educationTitle">
@@ -56,7 +74,7 @@ export default function Home() {
 
             </semantic>
             <main id="educationMain">
-                <article>
+                <article className="Scroll">
                     <h2>Computer science bsc (Hons)</h2>
                     <p>De Montfort University</p>
                     <p>Awarded Best Student in Second and Final Year</p>
@@ -106,13 +124,13 @@ export default function Home() {
                         </semantic>
                     </semantic>
                 </article>
-                <article>
+                <article className="Scroll">
                     <h2>OCR LEVEL 3 CAMBRIDGE TECHNICAL EXTENDED DIPLOMA IN IT,</h2>
                     <p>NORTHAMPTON COLLEGE</p>
                     <p>Grade</p>
                     <p>Distinction* Distinction* Distinction* </p>
                 </article>
-                <article>
+                <article className="Scroll">
                     <h2>ALEVELS</h2>
                     <p>NORTHAMPTON COLLEGE</p>
                     <p>Grade</p>
@@ -122,7 +140,7 @@ export default function Home() {
                     </div>
                 </article>
 
-                <article>
+                <article className="Scroll">
                     <h2>GCSE</h2>
                     <p>Quinton House</p>
                     <p>Grade</p>
