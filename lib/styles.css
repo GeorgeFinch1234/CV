@@ -212,6 +212,24 @@ carousel inspried from the w3schools tuotiral
     animation-duration: 4s;
 }
 
+.Scroll{
+    position: relative;
+    
+opacity: 0;
+transition: 2s;
+}
+#educationMain > :nth-child(even){
+    left: -20vw;
+}
+#educationMain > :nth-child(odd){
+    left: 20vw;
+}
+
+
+#educationMain > .scrollShow{
+left:0;
+opacity: 1;
+}
 
 @keyframes fade {
     from {
