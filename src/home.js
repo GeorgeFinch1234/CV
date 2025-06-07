@@ -8,7 +8,7 @@ export default function Home() {
                 <p>Software engineer</p>
             </section>
 
-            <img id="gradImg" className="homeImg" src="./../docs/images/graduation.jpg" alt="an image of george at graduation"></img>
+            <img id="gradImg" className="homeImg" src="./images/graduation.jpg" alt="an image of george at graduation"></img>
 
             <section id="aboutGeorge">
                 <h2>About George</h2>
