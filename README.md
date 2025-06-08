@@ -1,6 +1,6 @@
 # CV
 A website which represent my CV. 
-## Table of conent
+## Table of content 
 1. [Goal](#goal)
 2. [Technology](#technology)
 3. [Demo](#Demo)
