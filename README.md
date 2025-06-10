@@ -2,10 +2,13 @@
 A website which represent my CV. 
 ## Table of content 
 1. [Goal](#goal)
-2. [Technology](#technology)
-3. [Demo](#Demo)
+2. [ToDo](#todo)
+3. [Technology](#technology)
+4. [Demo](#demo)
 ## Goal
 To make a website which represents my CV, while getting practice in, babel, webpack, react, JS, CSS and HTML
+## ToDo
+1. update skill and languages
 ## Technology 
 ![Static Badge](https://img.shields.io/badge/javascript-blue)
 ![Static Badge](https://img.shields.io/badge/HTML-red)
